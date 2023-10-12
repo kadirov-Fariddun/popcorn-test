@@ -332,11 +332,86 @@ header .container .header_row .header_nav .nav_item a {
 }
 .feedbacks .container .all_feedbacks .swiper .swiper-slide {
   position: relative;
+  display: flex;
+  /* row-gap: 20px; */
 }
+
+/* slider slide 1 */
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-1{
+  flex-direction: column;
+  align-items: center;
+}
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-1 div:nth-child(1) img:nth-child(2),
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-1 div:nth-child(2) img:nth-child(1){
+  border-radius: 50%;
+}
+/* slider slide 2 */
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-2{
+  justify-content: center;
+  column-gap: 40px;
+  align-self: center;
+}
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-2 div{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+}
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-2 div img:last-child{
+  border-radius: 50%;
+}
+/* slider slide 3 */
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-3{
+  flex-direction: column;
+  align-items: center;
+}
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-3 div:nth-child(1) img:nth-child(1),
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-3 div:nth-child(2) img:nth-child(2){
+  border-radius: 50%;
+}
+/* slider slide 4 */
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-4{
+  align-self: center;
+}
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-4 div{
+  text-align: center;
+}
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-4 div:nth-child(1) img:nth-child(1),
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-4 div:nth-child(2) img:nth-child(1){
+  border-radius: 50%;
+  margin-bottom: 20px !important;
+}
+/* slider slide 5 */
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-5{
+  align-self: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-5 div:first-child img:first-child{
+  transform: rotate(-20deg);
+}
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-5 div:first-child img:last-child{
+  transform: rotate(20deg);
+}
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-5 div{
+  justify-content: center;
+  display: flex;
+  column-gap: 20px;
+}
+.feedbacks .container .all_feedbacks .swiper .swiper-slide-5 div:last-child img{
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .feedbacks .container .all_feedbacks .swiper .swiper-slide img {
-  width: 274px;
+  max-width: 274px;
+  margin: 0 !important;
+  transition: .3s;
 }
-.feedbacks .container .all_feedbacks .swiper .swiper-slide .image_item_1 {
+
+/* .feedbacks .container .all_feedbacks .swiper .swiper-slide .image_item_1 {
   position: absolute;
   top: 35px;
   left: 10px;
@@ -361,7 +436,7 @@ header .container .header_row .header_nav .nav_item a {
 }
 .feedbacks .container .all_feedbacks .swiper .swiper-slide .image_item_3 img {
   width: 100%;
-}
+} */
 .feedbacks .container .all_feedbacks .swiper .swiper-button-prev {
   border-radius: 50%;
   background-color: #FE5000;
