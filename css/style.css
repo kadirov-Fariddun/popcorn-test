@@ -1120,3 +1120,12 @@ dialog button{
 dialog::backdrop {
   backdrop-filter: grayscale(30%) blur(1px);
 }
+.show-coockie{
+  background: #181818;
+  color: #fff;
+  white-space: pre-wrap;
+  padding:20px;
+}
+.show-coockie button{
+  transform: translateX(-25%);
+}
