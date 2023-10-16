@@ -78,10 +78,15 @@
 @media(max-width:991px){
     /* hero */
     .img.img_1 img{
-        max-width: 300px;
+        display: none;
     }
     .hero .container .hero_title {
         font-size: 110px;
+    }
+    .hero .container .img_2 {
+        top: 90px;
+        right: -150px;
+        transform: rotate(60deg);
     }
     /* company */
     .company_row{
@@ -220,7 +225,7 @@
         font-size: 14px;
     }
     .products .all_products .item .top .product_img{
-        padding: 5px;
+        padding:20px 0px;
     }
     .products .all_products .item .bottom .action{
         padding: 20px 0;
@@ -229,16 +234,37 @@
         flex-direction: column;
         row-gap: 10px;
     }
-    .products .all_products .item .bottom .action button{
+    .products .all_products .item .bottom .action .item-btn{
         font-size: 15px;
         width:90% !important;
         height: 40px !important;
         margin: 0 auto;
     }
+    /* contact */
+    .contact .container .something_2{
+        bottom: auto;
+    }
 }
 /*600px*/
 @media(max-width:600px){
-
+    /* hero */
+    .hero .container .img_2 {
+        top: 90px;
+        right: -170px;
+        transform: rotate(-23deg);
+        max-width: 330px;
+        width: 100%;
+    }
+/*products*/
+.product_img img{
+    height: 100%;
+}
+.products .all_products .item .top .name{
+    font-size: 12px;
+}
+.products .all_products .item .bottom .action button{
+    font-size: 13px;
+}
 }
 /*576px*/
 @media(max-width:576px){
@@ -419,6 +445,12 @@
     }
     .products .prodoct_title .something_about p{
         font-size: 14px;
+    }
+    .products .all_products .item .bottom .action .item-btn{
+        font-size: 12px;
+        width:90% !important;
+        height: 40px !important;
+        margin: 0 auto;
     }
     /* feedbacks  */
         /* slide 1  */

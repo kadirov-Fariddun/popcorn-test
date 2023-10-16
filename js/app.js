@@ -47,3 +47,12 @@ const headerRow= document.querySelector('.header_row');
 burgerBtn.onclick = () => {
   headerRow.classList.toggle('header-show');
 }
+
+const navItems = document.querySelectorAll('.nav_item');
+for (let i = 0; i < navItems.length; i++) {
+  let navItem = navItems[i];
+  navItem.onclick = () => {
+    headerRow.classList.toggle('header-show');
+  }
+  
+}

@@ -853,7 +853,15 @@ footer .container .footer_opacity {
 #vnytr{
 		border-width: 0px;
 	background-color: #ffeca8;
-	
+	padding:20px 10px;
+}
+#vnytr button{
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  background-color: #FE5000;
+  color: #fff;
 }
 
 
