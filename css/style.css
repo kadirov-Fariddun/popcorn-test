@@ -252,13 +252,13 @@ header .container .header_row .header_nav .nav_item a {
   padding-bottom: 205px;
   position: relative;
 }
-.products .container .prodoct_title {
+.products  .prodoct_title {
   justify-content: flex-end;
   padding-top: 138px;
   padding-bottom: 90px;
   position: relative;
 }
-.products .container .prodoct_title .something_about {
+.products  .prodoct_title .something_about {
   position: absolute;
   /* top: -45px; */
   left: -100px;
@@ -269,24 +269,24 @@ header .container .header_row .header_nav .nav_item a {
   background-position: center;
   background-size: 100% 100%;
 }
-.products .container .prodoct_title .something_about .title {
+.products  .prodoct_title .something_about .title {
   color: #FFF;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 16px;
 }
-.products .container .prodoct_title .something_about p {
+.products  .prodoct_title .something_about p {
   color: #FFF;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 16px;
 }
-.products .container .all_products .row {
+.products .all_products .row {
   gap: 36px 0;
 }
-.products .container .all_products .item {
+.products .all_products .item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -297,13 +297,13 @@ header .container .header_row .header_nav .nav_item a {
   box-shadow: 3px 13px 14px 0px rgba(66, 36, 22, 0.24);
   border-radius: 30px;
 }
-.products .container .all_products .item .top .product_img {
+.products .all_products .item .top .product_img {
   padding: 12px 17px 21px;
 }
-.products .container .all_products .item .top .product_img img {
+.products .all_products .item .top .product_img img {
   max-width: 100%;
 }
-.products .container .all_products .item .top .name {
+.products .all_products .item .top .name {
   color: #000;
   font-size: 20px;
   font-weight: 900;
@@ -311,27 +311,27 @@ header .container .header_row .header_nav .nav_item a {
   margin-bottom: 12px;
   height: 60px;
 }
-.products .container .all_products .item .bottom .add_information {
+.products .all_products .item .bottom .add_information {
   color: #000;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 15px;
   padding: 0 30px;
 }
-.products .container .all_products .item .bottom .price {
+.products .all_products .item .bottom .price {
   color: #000;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 16px;
   padding: 0 30px;
 }
-.products .container .all_products .item .bottom .action {
+.products .all_products .item .bottom .action {
   padding: 25px 20px 21px;
   display: flex;
   justify-content: center;
   gap: 4px;
 }
-.products .container .all_products .item .bottom .action .button {
+.products .all_products .item .bottom .action .button {
   width: calc(50% - 2px);
 }
 

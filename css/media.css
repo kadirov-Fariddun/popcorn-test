@@ -70,7 +70,7 @@
       .to_pay .container .to_pay_img_4 img{
         max-width: 200px;
       }
-      .products .container .all_products .item .bottom .action {
+      .products  .all_products .item .bottom .action {
         padding: 25px 10px 21px;
       }
 }
@@ -118,7 +118,7 @@
         max-width: 300px;
     }
     /*propducts*/
-    .products .container .prodoct_title .something_about{
+    .products  .prodoct_title .something_about{
         padding: 40px;
         top: auto;
         width: 350px;
@@ -195,31 +195,46 @@
         max-width: 300px;
         transform: scale(-1);
     }
-    /*propducts*/
-    .products .container.padding{
-        padding: 0;
-    }
-    .products .container .prodoct_title .something_about{
+    /*products*/
+    .products .prodoct_title .something_about{
+        left: 0;
         position: relative;
-        width:100%;
-        left: auto;
     }
-    .products .container .prodoct_title{
+    .products .prodoct_title{
         flex-direction: column;
         align-items: center;
+        padding-bottom: 20px;
     }
-    .all_products{
-        margin-top: 0px;
+    .products .all_products .col-4{
+        padding: 0 5px;
     }
-    .products .container .all_products .item .bottom .action{
-        padding: 25px 20px 21px;
-    }
-    .products .container .all_products .item .top .product_img img{
+    .products .all_products .item{
         width: 100%;
     }
-    .contact .container .something_2{
-        bottom: 0;
+    .products .all_products .item .top .name{
+        padding: 0 10px;
+        font-size: 14px;
     }
+    .products .all_products .item .top .product_img{
+        padding: 5px;
+    }
+    .products .all_products .item .bottom .action{
+        padding: 20px 0;
+    }
+    .products .all_products .item .bottom .action{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .products .all_products .item .bottom .action button{
+        font-size: 15px;
+        width:90% !important;
+        height: 40px;
+        margin: 0 auto;
+    }
+}
+/*600px*/
+@media(max-width:600px){
+
 }
 /*576px*/
 @media(max-width:576px){
@@ -398,7 +413,7 @@
     .section_title{
         font-size: 22px;
     }
-    .products .container .prodoct_title .something_about p{
+    .products .prodoct_title .something_about p{
         font-size: 14px;
     }
     /* feedbacks  */
