@@ -210,6 +210,10 @@
     }
     .products .all_products .item{
         width: 100%;
+        margin: 0;
+    }
+    .products .all_products .item img{
+        width: 100%;
     }
     .products .all_products .item .top .name{
         padding: 0 10px;
@@ -228,7 +232,7 @@
     .products .all_products .item .bottom .action button{
         font-size: 15px;
         width:90% !important;
-        height: 40px;
+        height: 40px !important;
         margin: 0 auto;
     }
 }
