@@ -88,6 +88,16 @@
         right: -150px;
         transform: rotate(60deg);
     }
+    .img.opacity_1{
+        display: none;
+    }
+    .hero_action a.button {
+        margin-top: 120px;
+        padding: 20px 70px;
+    }
+    .img_8{
+        display: none;
+    }
     /* company */
     .company_row{
         display: grid !important;
@@ -421,8 +431,29 @@
           }
           /* contacts */
           .contact .container .all_contacts{
-            flex-direction: column;
+            gap: 10px;
           }
+          .contact .container{
+            padding: 0 10px 80px !important;
+          }
+          .contact .container .all_contacts .right .email_item {
+            max-width: 262px;
+            width: 100%;
+            background-size: contain;
+          }
+          .contact .container .all_contacts .right .email_item a{
+            font-size: 14px;
+          }
+          .contact .something_2{
+            margin-top: 15px;
+          }
+          .img_4{
+            top: 280px !important;
+          }
+          .img_7{
+            display: none;
+          }
+        
 }
 /*403px*/
 @media(max-width:403px){

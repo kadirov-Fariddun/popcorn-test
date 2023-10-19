@@ -1137,3 +1137,13 @@ dialog::backdrop {
 .show-coockie button{
   transform: translateX(-25%);
 }
+.options{
+  display: flex;
+  justify-content: center;
+}
+.options .button{
+  transform: none;
+}
+.options .odd{
+  transform: translateX(-50%);
+}
