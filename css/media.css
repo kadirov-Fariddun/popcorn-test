@@ -260,7 +260,7 @@
     /* hero */
     .hero .container .img_2 {
         top: 90px;
-        right: -170px;
+        right: -80px;
         transform: rotate(-23deg);
         max-width: 330px;
         width: 100%;
@@ -363,6 +363,7 @@
     .img.img_1{
         display: none;
     }
+   
     /* company */
     .company_img_1,.company_img_2,.company_img_3{
         display: none;
@@ -469,6 +470,17 @@
     }
     .hero .container .opacity_2{
         right: -120px;
+    }
+    .hero .container .img_2{
+        top: 50px;
+        right:0;
+    }
+    .hero .container .img_4{
+        top: 200px !important;
+        left: 0;
+    }
+    .hero_action a.button{
+        margin-top: 140px ;
     }
     /* product */
     .section_title{
