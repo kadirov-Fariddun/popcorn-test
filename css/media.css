@@ -437,9 +437,14 @@
           .contact .container{
             padding: 0 10px 80px !important;
           }
-          .contact .container .all_contacts .right .email_item {
-            max-width: 262px;
+          .contact .container .all_contacts div{
+            width: 50%;
+          }
+          .contact .container .all_contacts .left .description_item {
             width: 100%;
+          }
+          .contact .container .all_contacts .right .email_item {
+            max-width: 100%;
             background-size: contain;
           }
           .contact .container .all_contacts .right .email_item a{
@@ -455,6 +460,12 @@
             display: none;
           }
         
+}
+/*450px*/
+@media(max-width:450px){
+    .contact .container .all_contacts .right .email_item a{
+        font-size: 12px;
+    }
 }
 /*403px*/
 @media(max-width:403px){
@@ -553,5 +564,14 @@
           .to_pay_img_2,
           .to_pay_img_4{
             display: none;
-          }
+        }
+        /* contact */
+        .contact .container .all_contacts .right .email_item a{
+            font-size: 10px;
+        }
+        .contact .container .all_contacts .right{
+            flex-direction: column !important;
+            justify-content: space-between;
+            height:340px;
+        }
 }
